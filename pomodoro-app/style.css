@@ -1,3 +1,28 @@
-.background-beige{
+.background-beige {
     background-color:#F6EAE5;
+}
+
+.center-container {
+    display: flex; /* establishes a flex container */
+    flex-direction: column; /* aligns child elements vertically */
+    align-items: center; /* centers child elements horizontally */
+    justify-content: center; /* centers child elements vertically */
+    height: 100ch; /* 100% of viewport height */
+}
+
+.pomodoro-logo {
+    color: #E84C4F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: normal;
+}
+
+.start-button {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+
 }
