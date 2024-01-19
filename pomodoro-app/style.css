@@ -1,4 +1,6 @@
 .background-beige {
+    width: 1440px;
+    height: 1024px;
     background-color:#F6EAE5;
 }
 
@@ -14,10 +16,10 @@
     color: #E84C4F;
     text-align: center;
     font-family: Inter;
-    font-size: 120px;
+    font-size: 80px;
     font-style: normal;
-    font-weight: 300px;
-    line-height: normal;
+    font-weight: 300;
+    line-height: 25px; /* figure out how to get the button closer to the logo */
 }
 
 .start-button {
@@ -25,4 +27,18 @@
     height: 100px;
     flex-shrink: 0;
 
+}
+
+.ellipse-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100ch;
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 600px;
+    background: #F6EAE5;
+    box-shadow: 25px 25px 50px 0px rgba(0, 0, 0, 0.25), -25px -25px 50px 0px #F6EAE5;
 }
